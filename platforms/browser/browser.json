@@ -1,0 +1,32 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-flashlight": {
+            "PACKAGE_NAME": "com.app.torch"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.app.torch"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "file": "plugins/cordova-plugin-flashlight/www/Flashlight.js",
+            "id": "cordova-plugin-flashlight.Flashlight",
+            "pluginId": "cordova-plugin-flashlight",
+            "clobbers": [
+                "window.plugins.flashlight"
+            ]
+        }
+    ],
+    "plugin_metadata": {
+        "cordova-plugin-flashlight": "3.0.0",
+        "cordova-plugin-whitelist": "1.2.2"
+    }
+}

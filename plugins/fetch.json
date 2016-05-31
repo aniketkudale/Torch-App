@@ -1,0 +1,18 @@
+{
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-whitelist@1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-flashlight": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-flashlight"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}
